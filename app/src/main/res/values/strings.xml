@@ -1,0 +1,188 @@
+<resources>
+
+    <!--  STRINGS  -->
+    <string name="app_name">Hangman</string>
+    <string name="app_title">H_ngm_n</string>
+    <string name="manage_players_title">Jogadores</string>
+    <string name="new_player_input">Nome do Jogador</string>
+    <string name="invalid_user_name_alert">Você precisa preencher o nome do jogador para cadastrá-lo</string>
+    <string name="btn_delete_player_tag">btn_delete_player_tag</string>
+    <string name="game_options_label">Opções do Jogo</string>
+    <string name="game_difficulty_label">Dificuldade do Jogo</string>
+    <string name="select_player_label">Selecione o Jogador</string>
+    <string name="select_player_1_label">Selecione o Jogador 1</string>
+    <string name="select_player_2_label">Selecione o Jogador 2</string>
+    <string name="two_player_game_same_player_error">Os jogadores devem ser diferentes.</string>
+    <string name="start_game_btn_label">COMEÇAR O JOGO</string>
+    <string name="game_activity_has_no_player">O Jogador não foi enviado na intent, impossível iniciar o jogo.</string>
+
+    <!-- CHARACTERS -->
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="v">V</string>
+    <string name="w">W</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+
+    <!--  SIZES  -->
+    <string name="letter_button_size">30sp</string>
+
+    <string-array name="game_difficulties">
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="easy_words">
+        <item>Banana</item>
+        <item>Pastel</item>
+        <item>Macaco</item>
+        <item>Carro</item>
+        <item>Caneta</item>
+        <item>Celular</item>
+        <item>Mouse</item>
+        <item>Coroa</item>
+        <item>Galo</item>
+        <item>Ovo</item>
+        <item>Gancho</item>
+        <item>Cachorro</item>
+        <item>Gato</item>
+        <item>Pato</item>
+        <item>Bolacha</item>
+        <item>Sino</item>
+        <item>Sinal</item>
+        <item>Amor</item>
+        <item>Pedra</item>
+        <item>Rocha</item>
+        <item>Copo</item>
+        <item>Cueca</item>
+        <item>Jogo</item>
+        <item>Bloco</item>
+        <item>Escova</item>
+        <item>Tema</item>
+        <item>Aula</item>
+        <item>Quadro</item>
+        <item>Porta</item>
+        <item>Manga</item>
+        <item>Uva</item>
+        <item>Ouro</item>
+        <item>Prata</item>
+        <item>Cobre</item>
+        <item>Lata</item>
+        <item>Barco</item>
+        <item>Navio</item>
+        <item>Anjo</item>
+        <item>Taco</item>
+        <item>Gelo</item>
+        <item>Cubo</item>
+    </string-array>
+
+    <string-array name="medium_words">
+        <item>Saxofone</item>
+        <item>Dispositivo</item>
+        <item>Computador</item>
+        <item>Convexo</item>
+        <item>Translado</item>
+        <item>Simulador</item>
+        <item>Irritado</item>
+        <item>Complicado</item>
+        <item>Intimidade</item>
+        <item>Testamento</item>
+        <item>Absoluto</item>
+        <item>Diamante</item>
+        <item>Obsidiana</item>
+        <item>Devastador</item>
+        <item>Berimbau</item>
+        <item>Posicionar</item>
+        <item>Empreender</item>
+        <item>Documentar</item>
+        <item>Documento</item>
+        <item>Mousepad</item>
+        <item>Teclado</item>
+        <item>Projeto</item>
+        <item>Projetor</item>
+        <item>Carregador</item>
+        <item>Madeira</item>
+        <item>Jardineiro</item>
+        <item>Marceneiro</item>
+        <item>Corredor</item>
+        <item>Simulador</item>
+        <item>Xaxim</item>
+        <item>Spray</item>
+        <item>Controle</item>
+        <item>Controlador</item>
+        <item>Boneco</item>
+        <item>Brinquedo</item>
+        <item>Algema</item>
+        <item>Caderno</item>
+        <item>Esporte</item>
+        <item>Futebol</item>
+        <item>Basquete</item>
+        <item>Pebolim</item>
+    </string-array>
+
+    <string-array name="hard_words">
+        <item>Iconoclasta</item>
+        <item>Juvenelizante</item>
+        <item>Nitidificar</item>
+        <item>Absurdamente</item>
+        <item>Rodoanel</item>
+        <item>Lubrificante</item>
+        <item>Putrefato</item>
+        <item>Yanomami</item>
+        <item>Capcioso</item>
+        <item>Procrastinar</item>
+        <item>Meticulosidade</item>
+        <item>Cosmonauta</item>
+        <item>Discernimento</item>
+        <item>Escarafunchar</item>
+        <item>Delinquente</item>
+        <item>Computadorizado</item>
+        <item>Automatizado</item>
+        <item>Sincronizado</item>
+        <item>Processador</item>
+        <item>Avassalador</item>
+        <item>Performatico</item>
+        <item>Performatico</item>
+        <item>Nitidamente</item>
+        <item>Conscientizar</item>
+        <item>Simulacro</item>
+        <item>Angelical</item>
+        <item>Cacarejar</item>
+        <item>Ingerir</item>
+        <item>Complexidade</item>
+        <item>Telefonema</item>
+        <item>Sensibilidade</item>
+        <item>Sobrecarregado</item>
+        <item>Universidade</item>
+        <item>Infinitamente</item>
+        <item>Relacionamento</item>
+        <item>Colecionadores</item>
+        <item>Indiscutivelmente</item>
+        <item>Descompassadamente</item>
+        <item>Irresponsabilidade</item>
+        <item>Aleatoriedade</item>
+        <item>Eletrocardiograma</item>
+    </string-array>
+
+</resources>
